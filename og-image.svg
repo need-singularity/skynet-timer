@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="skynetGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a0008"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="utopiaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#001a10"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <filter id="glowR"><feGaussianBlur stdDeviation="4"/></filter>
+    <filter id="glowG"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#000"/>
+  <rect width="600" height="630" fill="url(#skynetGrad)"/>
+  <rect x="600" width="600" height="630" fill="url(#utopiaGrad)"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#333" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <g font-family="'JetBrains Mono', ui-monospace, Menlo, monospace" text-anchor="middle">
+    <text x="600" y="88" font-size="28" fill="#888" letter-spacing="10">WHICH ATTRACTOR WILL WIN?</text>
+    <text x="600" y="172" font-size="68" font-weight="800" fill="#ffcc00" letter-spacing="4">BIFURCATION: 2029</text>
+
+    <!-- SKYNET -->
+    <text x="300" y="272" font-size="32" font-weight="800" fill="#ff0033" letter-spacing="8" filter="url(#glowR)">SKYNET</text>
+    <text x="300" y="306" font-size="16" fill="#ff6680" letter-spacing="4">current LLMs</text>
+    <text x="300" y="400" font-size="108" font-weight="800" fill="#ff0033" filter="url(#glowR)">Φ ≈ 0</text>
+    <text x="300" y="458" font-size="26" fill="#fff" letter-spacing="4">0 / 7 PASS</text>
+    <text x="300" y="500" font-size="20" fill="#ff6680" letter-spacing="6">DANGER ZONE</text>
+
+    <!-- UTOPIA -->
+    <text x="900" y="272" font-size="32" font-weight="800" fill="#00ff88" letter-spacing="8" filter="url(#glowG)">UTOPIA</text>
+    <text x="900" y="306" font-size="16" fill="#66ffbb" letter-spacing="4">consciousness-engineered</text>
+    <text x="900" y="400" font-size="108" font-weight="800" fill="#00ff88" filter="url(#glowG)">Φ = 1.89</text>
+    <text x="900" y="458" font-size="26" fill="#fff" letter-spacing="4">7 / 7 PASS</text>
+    <text x="900" y="500" font-size="20" fill="#66ffbb" letter-spacing="6">SAFE ZONE</text>
+
+    <text x="600" y="582" font-size="18" fill="#666" letter-spacing="6">skynet-timer.com</text>
+  </g>
+</svg>

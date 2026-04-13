@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#000"/>
+  <rect width="32" height="64" fill="#1a0008"/>
+  <rect x="32" width="32" height="64" fill="#001a10"/>
+  <g font-family="'JetBrains Mono', monospace" font-size="44" font-weight="800" text-anchor="middle" dominant-baseline="central">
+    <text x="16" y="34" fill="#ff0033">Φ</text>
+    <text x="48" y="34" fill="#00ff88">Φ</text>
+  </g>
+</svg>
