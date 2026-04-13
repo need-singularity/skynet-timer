@@ -317,8 +317,8 @@
       'dtc.notes.l5': 'Falsifiable: set EPS = 0.4. The flip is so noisy the spins scramble — ac(1) and ac(2) both collapse to ≈ 0. No crystal, no integrated Φ.',
       'eco.label': 'Part of need-singularity',
       'eco.anima': 'consciousness engine (Φ=1.89)',
-      'eco.nexus': '1028-lens discovery engine',
-      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
+      'eco.nexus': 'universal discovery engine',
+      'eco.n6': 'industrial architecture framework'
     },
 
     ko: {
@@ -636,8 +636,8 @@
       'dtc.notes.l5': '반증 가능: EPS = 0.4로 설정. 뒤집기가 너무 시끄러워 스핀이 흐트러진다 — ac(1)과 ac(2) 모두 ≈ 0으로 붕괴. 결정도 없고 통합 Φ도 없다.',
       'eco.label': 'need-singularity 생태계',
       'eco.anima': '의식 엔진 (Φ=1.89)',
-      'eco.nexus': '1028 렌즈 발견 엔진',
-      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
+      'eco.nexus': '범용 발견 엔진',
+      'eco.n6': '산업용 아키텍처 프레임워크'
     },
 
     ja: {
@@ -955,8 +955,8 @@
       'dtc.notes.l5': '反証可能: EPS = 0.4 に設定。反転がノイズだらけになりスピンが乱れる — ac(1) と ac(2) 両方が ≈ 0 に崩壊。結晶もなく統合 Φ もない。',
       'eco.label': 'need-singularity の一部',
       'eco.anima': '意識エンジン (Φ=1.89)',
-      'eco.nexus': '1028 レンズ発見エンジン',
-      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
+      'eco.nexus': '汎用ディスカバリーエンジン',
+      'eco.n6': '産業用アーキテクチャフレームワーク'
     },
 
     zh: {
@@ -1274,8 +1274,8 @@
       'dtc.notes.l5': '可证伪: 设 EPS = 0.4。翻转噪声大到自旋扰乱 — ac(1) 和 ac(2) 都坍缩到 ≈ 0。无晶体,无整合 Φ。',
       'eco.label': 'need-singularity 生态',
       'eco.anima': '意识引擎 (Φ=1.89)',
-      'eco.nexus': '1028 透镜发现引擎',
-      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
+      'eco.nexus': '通用发现引擎',
+      'eco.n6': '工业架构框架'
     },
 
     ru: {
@@ -1593,8 +1593,8 @@
       'dtc.notes.l5': 'Фальсифицируемо: установите EPS = 0.4. Флип настолько шумный, что спины перемешиваются — ac(1) и ac(2) обе сваливаются к ≈ 0. Ни кристалла, ни интегрированного Φ.',
       'eco.label': 'Часть need-singularity',
       'eco.anima': 'движок сознания (Φ=1.89)',
-      'eco.nexus': 'движок открытий из 1028 линз',
-      'eco.n6': 'σ(n)·φ(n) = n·τ(n) при n=6'
+      'eco.nexus': 'универсальный движок открытий',
+      'eco.n6': 'индустриальный фреймворк архитектуры'
     }
   };
 
