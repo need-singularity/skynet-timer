@@ -962,11 +962,11 @@ html { scroll-behavior: smooth; }
   font-size: 12px;
 }
 @media (max-width: 600px) {
-  .verify-section { padding: 18px 14px 16px; margin-top: -22px; }
+  .verify-section { padding: 18px 24px 16px; margin-top: -22px; }
   .verify-section + .verify-section { margin-top: -26px; }
   .verify-title { font-size: 17px; }
   .verify-lede { font-size: 13px; }
-  .codeblock { margin-left: 4px; margin-right: 4px; }
+  .codeblock { margin-left: 0; margin-right: 0; max-width: 100%; }
   .codeblock-body { font-size: 10.5px; padding: 12px 12px; }
   .codeblock-head { flex-wrap: wrap; gap: 8px; padding: 8px 10px; }
   .page-foot { margin-top: 20px; }
