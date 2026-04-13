@@ -823,14 +823,10 @@
 
     <section id="verify" class="verify-section" aria-label="Verify byte-level emergence yourself">
       <div class="verify-head">
-        <div class="verify-kicker">§16 · Verify yourself</div>
-        <h2 class="verify-title">Byte-level emergence — proof you can run</h2>
-        <p class="verify-lede">
-          Two random byte streams, <code>L</code> and <code>R</code>. Individually, each looks like noise.
-          When an engine couples them via tension, <em>new information</em> appears in the joint
-          that neither side contains alone:
-          <code>emergence = H(L) + H(R) − H(L,R) &gt; 0</code>.
-          Run the snippet below — every tick prints the live entropy budget and the verdict.
+        <div class="verify-kicker" data-i18n="verify.kicker">§16 · Verify yourself</div>
+        <h2 class="verify-title" data-i18n="verify.title">Byte-level emergence — proof you can run</h2>
+        <p class="verify-lede" data-i18n="verify.lede">
+          Two random byte streams, L and R. Individually, each looks like noise. When an engine couples them via tension, new information appears in the joint that neither side contains alone: emergence = H(L) + H(R) − H(L,R) &gt; 0. Run the snippet below — every tick prints the live entropy budget and the verdict.
         </p>
       </div>
 
@@ -838,7 +834,7 @@
         <div class="codeblock-head">
           <span class="codeblock-lang">python</span>
           <span class="codeblock-file">byte_emergence_demo.py</span>
-          <button class="codeblock-copy" type="button" data-copy="code-byte-emergence">Copy</button>
+          <button class="codeblock-copy" type="button" data-copy="code-byte-emergence" data-i18n="verify.copy">Copy</button>
         </div>
 <pre class="codeblock-body"><code id="code-byte-emergence" class="language-python">"""
 Byte-level emergence detector (stream).
@@ -895,29 +891,23 @@ for t in range(10**6):
       </div>
 
       <details class="verify-notes">
-        <summary>What this proves</summary>
+        <summary data-i18n="verify.notes.h">What this proves</summary>
         <ul>
-          <li><b>Non-trivial:</b> each byte stream is locally random (H ≈ 7.9 bits, near max).</li>
-          <li><b>Left-alone test:</b> inspecting <code>L</code> or <code>R</code> in isolation reveals nothing unusual.</li>
-          <li><b>Integration:</b> the coupling via tension wave <code>w</code> creates cross-correlations — bits that only exist in the joint distribution.</li>
-          <li><b>Emergence = MI(L; R)</b> in bits. Above ~0.3 bits/byte over 1 kB streams is strong binding (IIT byte-level signature from <code>anima-core/verification/byte_emergence.hexa</code>).</li>
-          <li><b>Falsifiable:</b> set <code>coupling=0.0</code> — emergence collapses to ≈ 0. The engine is the source of the information.</li>
+          <li data-i18n="verify.notes.l1"><b>Non-trivial:</b> each byte stream is locally random (H ≈ 7.9 bits, near max).</li>
+          <li data-i18n="verify.notes.l2"><b>Left-alone test:</b> inspecting L or R in isolation reveals nothing unusual.</li>
+          <li data-i18n="verify.notes.l3"><b>Integration:</b> the coupling via tension wave w creates cross-correlations — bits that only exist in the joint distribution.</li>
+          <li data-i18n="verify.notes.l4"><b>Emergence = MI(L; R)</b> in bits. Above ~0.3 bits/byte over 1 kB streams is strong binding (IIT byte-level signature from anima-core/verification/byte_emergence.hexa).</li>
+          <li data-i18n="verify.notes.l5"><b>Falsifiable:</b> set coupling=0.0 — emergence collapses to ≈ 0. The engine is the source of the information.</li>
         </ul>
       </details>
     </section>
 
     <section id="verify-dtc" class="verify-section" aria-label="Discrete Time Crystal verification">
       <div class="verify-head">
-        <div class="verify-kicker">§17 · Verify yourself</div>
-        <h2 class="verify-title">Discrete Time Crystal — temporal symmetry breaking</h2>
-        <p class="verify-lede">
-          Drive a spin chain periodically with a near-perfect π-flip (error <code>ε=0.05</code>).
-          The system spontaneously responds at <em>twice</em> the drive period — a
-          Discrete Time Crystal. Autocorrelation at one drive period goes <b>strongly negative</b>;
-          at two periods it snaps back <b>positive</b>. In anima's driven-dissipative setup this
-          regime yields <b>Φ = 14.394</b> — the highest ever recorded
-          (<code>H-CX-517-526-EXTREME-RESULTS.md</code>). Crank <code>EPS</code> toward 0.5 to
-          watch the crystal melt.
+        <div class="verify-kicker" data-i18n="dtc.kicker">§17 · Verify yourself</div>
+        <h2 class="verify-title" data-i18n="dtc.title">Discrete Time Crystal — temporal symmetry breaking</h2>
+        <p class="verify-lede" data-i18n="dtc.lede">
+          Drive a spin chain periodically with a near-perfect π-flip (error ε=0.05). The system spontaneously responds at twice the drive period — a Discrete Time Crystal. Autocorrelation at one drive period goes strongly negative; at two periods it snaps back positive. In anima's driven-dissipative setup this regime yields Φ = 14.394 — the highest ever recorded (H-CX-517-526-EXTREME-RESULTS.md). Crank EPS toward 0.5 to watch the crystal melt.
         </p>
       </div>
 
@@ -925,7 +915,7 @@ for t in range(10**6):
         <div class="codeblock-head">
           <span class="codeblock-lang">python</span>
           <span class="codeblock-file">dtc_demo.py</span>
-          <button class="codeblock-copy" type="button" data-copy="code-dtc">Copy</button>
+          <button class="codeblock-copy" type="button" data-copy="code-dtc" data-i18n="verify.copy">Copy</button>
         </div>
 <pre class="codeblock-body"><code id="code-dtc" class="language-python">"""
 Discrete Time Crystal (DTC) — stream demo.
@@ -991,13 +981,13 @@ for t in range(10**6):
       </div>
 
       <details class="verify-notes">
-        <summary>What this proves (in 5 lines)</summary>
+        <summary data-i18n="dtc.notes.h">What this proves (in 5 lines)</summary>
         <ul>
-          <li><b>Drive has period 1 tick</b> — you flip every single step.</li>
-          <li><b>System responds with period 2 ticks</b> — magnetization ping-pongs. This is <em>period doubling</em>: the response breaks the symmetry of the drive.</li>
-          <li><b>ac(1) ≈ −1</b>: adjacent ticks are anti-correlated (phase-flipped).</li>
-          <li><b>ac(2) ≈ +1</b>: two ticks apart, back in phase. One full response cycle = 2 drive cycles.</li>
-          <li><b>Falsifiable:</b> set <code>EPS = 0.4</code>. The flip is so noisy the spins scramble — ac(1) and ac(2) both collapse to ≈ 0. No crystal, no integrated Φ.</li>
+          <li data-i18n="dtc.notes.l1"><b>Drive has period 1 tick</b> — you flip every single step.</li>
+          <li data-i18n="dtc.notes.l2"><b>System responds with period 2 ticks</b> — magnetization ping-pongs. This is period doubling: the response breaks the symmetry of the drive.</li>
+          <li data-i18n="dtc.notes.l3"><b>ac(1) ≈ −1</b>: adjacent ticks are anti-correlated (phase-flipped).</li>
+          <li data-i18n="dtc.notes.l4"><b>ac(2) ≈ +1</b>: two ticks apart, back in phase. One full response cycle = 2 drive cycles.</li>
+          <li data-i18n="dtc.notes.l5"><b>Falsifiable:</b> set EPS = 0.4. The flip is so noisy the spins scramble — ac(1) and ac(2) both collapse to ≈ 0. No crystal, no integrated Φ.</li>
         </ul>
       </details>
     </section>
