@@ -1008,23 +1008,28 @@ html { scroll-behavior: smooth; }
   color: #fff;
 }
 .ecosystem-name {
-  font: 700 13px/1.2 ui-monospace, "JetBrains Mono", monospace;
+  font: 700 13px/1 ui-monospace, "JetBrains Mono", monospace;
   color: #fff;
   margin-bottom: 4px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 .ecosystem-gh {
   flex: 0 0 auto;
   opacity: 0.7;
   transition: opacity 0.15s;
+  display: block;
 }
 .ecosystem-arrow {
   margin-left: auto;
+  padding-left: 10px;
   color: #888;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
   transition: color 0.15s, transform 0.15s;
 }
 .ecosystem-card:hover .ecosystem-arrow {
