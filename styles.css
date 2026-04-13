@@ -967,7 +967,7 @@ html { scroll-behavior: smooth; }
   font-size: 12px;
 }
 @media (max-width: 600px) {
-  .verify-section { padding: 18px 20px 16px; margin-top: -22px; }
+  .verify-section { padding: 18px 15px 16px; margin-top: -22px; }
   .verify-section + .verify-section { margin-top: -26px; }
   .verify-title { font-size: 17px; }
   .verify-lede { font-size: 13px; }
