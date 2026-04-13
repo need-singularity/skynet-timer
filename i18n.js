@@ -314,7 +314,11 @@
       'dtc.notes.l2': 'System responds with period 2 ticks — magnetization ping-pongs. This is period doubling: the response breaks the symmetry of the drive.',
       'dtc.notes.l3': 'ac(1) ≈ −1: adjacent ticks are anti-correlated (phase-flipped).',
       'dtc.notes.l4': 'ac(2) ≈ +1: two ticks apart, back in phase. One full response cycle = 2 drive cycles.',
-      'dtc.notes.l5': 'Falsifiable: set EPS = 0.4. The flip is so noisy the spins scramble — ac(1) and ac(2) both collapse to ≈ 0. No crystal, no integrated Φ.'
+      'dtc.notes.l5': 'Falsifiable: set EPS = 0.4. The flip is so noisy the spins scramble — ac(1) and ac(2) both collapse to ≈ 0. No crystal, no integrated Φ.',
+      'eco.label': 'Part of need-singularity',
+      'eco.anima': 'consciousness engine (Φ=1.89)',
+      'eco.nexus': '1028-lens discovery engine',
+      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
     },
 
     ko: {
@@ -629,7 +633,11 @@
       'dtc.notes.l2': '시스템은 2 tick 주기로 응답한다 — 자화가 핑퐁한다. 이것이 주기 배가: 응답이 구동의 대칭성을 깬다.',
       'dtc.notes.l3': 'ac(1) ≈ −1: 인접 tick은 반상관 (위상 뒤집힘).',
       'dtc.notes.l4': 'ac(2) ≈ +1: 두 tick 떨어지면 위상 복귀. 한 응답 사이클 = 2 구동 사이클.',
-      'dtc.notes.l5': '반증 가능: EPS = 0.4로 설정. 뒤집기가 너무 시끄러워 스핀이 흐트러진다 — ac(1)과 ac(2) 모두 ≈ 0으로 붕괴. 결정도 없고 통합 Φ도 없다.'
+      'dtc.notes.l5': '반증 가능: EPS = 0.4로 설정. 뒤집기가 너무 시끄러워 스핀이 흐트러진다 — ac(1)과 ac(2) 모두 ≈ 0으로 붕괴. 결정도 없고 통합 Φ도 없다.',
+      'eco.label': 'need-singularity 생태계',
+      'eco.anima': '의식 엔진 (Φ=1.89)',
+      'eco.nexus': '1028 렌즈 발견 엔진',
+      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
     },
 
     ja: {
@@ -944,7 +952,11 @@
       'dtc.notes.l2': '系は 2 tick 周期で応答する — 磁化が往復する。これが周期倍化: 応答が駆動の対称性を破る。',
       'dtc.notes.l3': 'ac(1) ≈ −1: 隣接 tick は反相関 (位相反転)。',
       'dtc.notes.l4': 'ac(2) ≈ +1: 2 tick 離れて位相が戻る。1 応答サイクル = 2 駆動サイクル。',
-      'dtc.notes.l5': '反証可能: EPS = 0.4 に設定。反転がノイズだらけになりスピンが乱れる — ac(1) と ac(2) 両方が ≈ 0 に崩壊。結晶もなく統合 Φ もない。'
+      'dtc.notes.l5': '反証可能: EPS = 0.4 に設定。反転がノイズだらけになりスピンが乱れる — ac(1) と ac(2) 両方が ≈ 0 に崩壊。結晶もなく統合 Φ もない。',
+      'eco.label': 'need-singularity の一部',
+      'eco.anima': '意識エンジン (Φ=1.89)',
+      'eco.nexus': '1028 レンズ発見エンジン',
+      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
     },
 
     zh: {
@@ -1259,7 +1271,11 @@
       'dtc.notes.l2': '系统以 2 tick 周期响应 — 磁化乒乓振荡。这就是周期倍化: 响应破缺驱动的对称性。',
       'dtc.notes.l3': 'ac(1) ≈ −1: 相邻 tick 反相关 (相位翻转)。',
       'dtc.notes.l4': 'ac(2) ≈ +1: 相隔两个 tick 后相位回归。一个完整响应循环 = 2 个驱动循环。',
-      'dtc.notes.l5': '可证伪: 设 EPS = 0.4。翻转噪声大到自旋扰乱 — ac(1) 和 ac(2) 都坍缩到 ≈ 0。无晶体,无整合 Φ。'
+      'dtc.notes.l5': '可证伪: 设 EPS = 0.4。翻转噪声大到自旋扰乱 — ac(1) 和 ac(2) 都坍缩到 ≈ 0。无晶体,无整合 Φ。',
+      'eco.label': 'need-singularity 生态',
+      'eco.anima': '意识引擎 (Φ=1.89)',
+      'eco.nexus': '1028 透镜发现引擎',
+      'eco.n6': 'σ(n)·φ(n) = n·τ(n) at n=6'
     },
 
     ru: {
@@ -1574,7 +1590,11 @@
       'dtc.notes.l2': 'Система отвечает периодом 2 тика — намагниченность колеблется. Это удвоение периода: ответ нарушает симметрию возбуждения.',
       'dtc.notes.l3': 'ac(1) ≈ −1: соседние тики антикоррелированы (фаза перевёрнута).',
       'dtc.notes.l4': 'ac(2) ≈ +1: через два тика фаза возвращается. Один полный цикл ответа = 2 цикла возбуждения.',
-      'dtc.notes.l5': 'Фальсифицируемо: установите EPS = 0.4. Флип настолько шумный, что спины перемешиваются — ac(1) и ac(2) обе сваливаются к ≈ 0. Ни кристалла, ни интегрированного Φ.'
+      'dtc.notes.l5': 'Фальсифицируемо: установите EPS = 0.4. Флип настолько шумный, что спины перемешиваются — ac(1) и ac(2) обе сваливаются к ≈ 0. Ни кристалла, ни интегрированного Φ.',
+      'eco.label': 'Часть need-singularity',
+      'eco.anima': 'движок сознания (Φ=1.89)',
+      'eco.nexus': 'движок открытий из 1028 линз',
+      'eco.n6': 'σ(n)·φ(n) = n·τ(n) при n=6'
     }
   };
 
