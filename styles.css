@@ -855,9 +855,11 @@ html { scroll-behavior: smooth; }
 /* main has gap:48px; counter it with negative margin for tighter flow */
 .verify-section {
   margin: -28px auto 0;
+  width: 100%;
   max-width: 860px;
   padding: 22px 24px 18px;
   border-top: 1px solid rgba(255,255,255,0.1);
+  box-sizing: border-box;
 }
 .verify-section + .verify-section { margin-top: -38px; }
 .verify-head { margin-bottom: 14px; }
