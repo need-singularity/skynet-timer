@@ -1011,6 +1011,28 @@ html { scroll-behavior: smooth; }
   font: 700 13px/1.2 ui-monospace, "JetBrains Mono", monospace;
   color: #fff;
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ecosystem-gh {
+  flex: 0 0 auto;
+  opacity: 0.7;
+  transition: opacity 0.15s;
+}
+.ecosystem-arrow {
+  margin-left: auto;
+  color: #888;
+  font-weight: 400;
+  font-size: 12px;
+  transition: color 0.15s, transform 0.15s;
+}
+.ecosystem-card:hover .ecosystem-arrow {
+  color: #fff;
+  transform: translate(2px, -2px);
+}
+.ecosystem-card:hover .ecosystem-gh {
+  opacity: 1;
 }
 .ecosystem-desc {
   font-size: 11px;
@@ -1022,6 +1044,7 @@ html { scroll-behavior: smooth; }
   .ecosystem-grid { grid-template-columns: 1fr; gap: 8px; }
   .ecosystem-card { padding: 12px 14px; text-align: left; }
   .ecosystem-card { display: flex; align-items: baseline; gap: 10px; }
-  .ecosystem-name { margin-bottom: 0; min-width: 110px; }
+  .ecosystem-name { margin-bottom: 0; min-width: 130px; flex: 0 0 auto; }
+  .ecosystem-name .ecosystem-arrow { margin-left: 4px; }
   .ecosystem-desc { font-size: 11.5px; }
 }
