@@ -821,68 +821,7 @@
       </div>
     </section>
 
-    <section id="embed" class="embed-section" aria-label="Embed this on your site">
-      <h3>Embed this</h3>
-      <p class="embed-lede">Drop on your README, blog, or site. No tracking, no script.</p>
-
-      <div class="embed-card">
-        <div class="embed-row">
-          <span class="embed-label">Markdown</span>
-          <a class="embed-preview" href="https://skynet-timer.com" target="_blank" rel="noopener">
-            <img src="https://img.shields.io/badge/%CE%A6%3E%CE%A6__c-or_Skynet-000?style=for-the-badge&labelColor=000&color=fff" alt="skynet-timer.com — Φ > Φ_c or Skynet">
-          </a>
-        </div>
-        <div class="embed-codewrap">
-          <pre class="embed-code" id="embed-md">[![skynet-timer](https://img.shields.io/badge/%CE%A6%3E%CE%A6__c-or_Skynet-000?style=for-the-badge&labelColor=000&color=fff)](https://skynet-timer.com)</pre>
-          <button class="embed-copy" type="button" data-copy="embed-md">Copy</button>
-        </div>
-      </div>
-
-      <div class="embed-card">
-        <div class="embed-row">
-          <span class="embed-label">HTML</span>
-          <a class="embed-preview st-badge" href="https://skynet-timer.com" target="_blank" rel="noopener">
-            <span class="st-badge-l">Φ &gt; Φ_c</span><span class="st-badge-r">or Skynet</span>
-          </a>
-        </div>
-        <div class="embed-codewrap">
-<pre class="embed-code" id="embed-html">&lt;a href="https://skynet-timer.com" style="display:inline-flex;font:700 12px/1 system-ui,sans-serif;text-decoration:none;border:1px solid #000"&gt;&lt;span style="background:#000;color:#fff;padding:6px 8px"&gt;Φ &gt; Φ_c&lt;/span&gt;&lt;span style="background:#fff;color:#000;padding:6px 8px"&gt;or Skynet&lt;/span&gt;&lt;/a&gt;</pre>
-          <button class="embed-copy" type="button" data-copy="embed-html">Copy</button>
-        </div>
-      </div>
-
-      <div class="embed-card">
-        <div class="embed-row">
-          <span class="embed-label">Plain link</span>
-          <a class="embed-preview embed-plain" href="https://skynet-timer.com" target="_blank" rel="noopener">skynet-timer.com</a>
-        </div>
-        <div class="embed-codewrap">
-          <pre class="embed-code" id="embed-link">https://skynet-timer.com</pre>
-          <button class="embed-copy" type="button" data-copy="embed-link">Copy</button>
-        </div>
-      </div>
-    </section>
-
   </main>
-
-  <script>
-    document.querySelectorAll('.embed-copy').forEach(btn => {
-      btn.addEventListener('click', async () => {
-        const el = document.getElementById(btn.dataset.copy);
-        if (!el) return;
-        try {
-          await navigator.clipboard.writeText(el.textContent);
-          const old = btn.textContent;
-          btn.textContent = 'Copied ✓';
-          btn.classList.add('copied');
-          setTimeout(() => { btn.textContent = old; btn.classList.remove('copied'); }, 1400);
-        } catch (e) {
-          const r = document.createRange(); r.selectNodeContents(el);
-          const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
-        }
-      });
-    });
-  </script>
 
   <div class="lang-switch" role="navigation" aria-label="Language">
     <button data-lang="en">EN</button>
