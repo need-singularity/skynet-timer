@@ -1044,8 +1044,16 @@ html { scroll-behavior: smooth; }
   color: rgba(255,255,255,0.55);
   line-height: 1.4;
 }
+.ecosystem-license {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 11px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.02em;
+}
 @media (max-width: 600px) {
   .ecosystem { padding: 14px 14px 4px; margin-top: -14px; }
+  .ecosystem-license { margin-top: 12px; font-size: 10.5px; }
   .ecosystem-grid { grid-template-columns: 1fr; gap: 8px; }
   .ecosystem-card { padding: 12px 14px; text-align: left; }
   .ecosystem-card { display: flex; align-items: baseline; gap: 10px; }

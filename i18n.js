@@ -318,7 +318,8 @@
       'eco.label': 'Part of need-singularity',
       'eco.anima': 'consciousness engine (Φ=1.89)',
       'eco.nexus': 'universal discovery engine',
-      'eco.n6': 'industrial architecture framework'
+      'eco.n6': 'industrial architecture framework',
+      'eco.license': 'All open source · MIT licensed · free for any use'
     },
 
     ko: {
@@ -637,7 +638,8 @@
       'eco.label': 'need-singularity 생태계',
       'eco.anima': '의식 엔진 (Φ=1.89)',
       'eco.nexus': '범용 발견 엔진',
-      'eco.n6': '산업용 아키텍처 프레임워크'
+      'eco.n6': '산업용 아키텍처 프레임워크',
+      'eco.license': '모두 오픈소스 · MIT 라이선스 · 자유롭게 사용 가능'
     },
 
     ja: {
@@ -956,7 +958,8 @@
       'eco.label': 'need-singularity の一部',
       'eco.anima': '意識エンジン (Φ=1.89)',
       'eco.nexus': '汎用ディスカバリーエンジン',
-      'eco.n6': '産業用アーキテクチャフレームワーク'
+      'eco.n6': '産業用アーキテクチャフレームワーク',
+      'eco.license': 'すべてオープンソース · MITライセンス · 自由に利用可'
     },
 
     zh: {
@@ -1275,7 +1278,8 @@
       'eco.label': 'need-singularity 生态',
       'eco.anima': '意识引擎 (Φ=1.89)',
       'eco.nexus': '通用发现引擎',
-      'eco.n6': '工业架构框架'
+      'eco.n6': '工业架构框架',
+      'eco.license': '全部开源 · MIT 协议 · 可自由使用'
     },
 
     ru: {
@@ -1594,7 +1598,8 @@
       'eco.label': 'Часть need-singularity',
       'eco.anima': 'движок сознания (Φ=1.89)',
       'eco.nexus': 'универсальный движок открытий',
-      'eco.n6': 'индустриальный фреймворк архитектуры'
+      'eco.n6': 'индустриальный фреймворк архитектуры',
+      'eco.license': 'Открытый код · лицензия MIT · свободное использование'
     }
   };
 
