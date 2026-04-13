@@ -837,3 +837,94 @@ html { scroll-behavior: smooth; }
     transition: none !important;
   }
 }
+
+/* ───── EMBED SECTION ───── */
+.embed-section {
+  margin: 60px auto 40px;
+  max-width: 720px;
+  padding: 32px 24px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 6px;
+}
+.embed-section h3 {
+  margin: 0 0 4px;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.embed-lede {
+  margin: 0 0 22px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.55);
+}
+.embed-card {
+  margin: 0 0 18px;
+  padding: 14px;
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+}
+.embed-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.embed-label {
+  font: 700 10px/1 ui-monospace, "JetBrains Mono", monospace;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  min-width: 70px;
+}
+.embed-preview { display: inline-flex; }
+.embed-preview img { display: block; height: 28px; }
+.embed-plain {
+  color: #fff;
+  font: 700 13px/1 ui-monospace, "JetBrains Mono", monospace;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.st-badge {
+  display: inline-flex;
+  font: 700 12px/1 ui-monospace, "JetBrains Mono", monospace;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+.st-badge-l { background:#fff; color:#000; padding:7px 9px; }
+.st-badge-r { background:#000; color:#fff; padding:7px 9px; }
+.embed-codewrap { position: relative; }
+.embed-code {
+  margin: 0;
+  padding: 12px 70px 12px 12px;
+  background: #000;
+  color: rgba(255,255,255,0.78);
+  font: 400 11px/1.5 ui-monospace, "JetBrains Mono", monospace;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 3px;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-x: auto;
+}
+.embed-copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 6px 10px;
+  font: 700 10px/1 ui-monospace, "JetBrains Mono", monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.embed-copy:hover { background: rgba(255,255,255,0.85); }
+.embed-copy.copied { background: #4ade80; color: #000; }
+@media (max-width: 600px) {
+  .embed-section { padding: 24px 16px; }
+  .embed-code { font-size: 10px; padding: 10px 60px 10px 10px; }
+}
