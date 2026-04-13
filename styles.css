@@ -840,13 +840,14 @@ html { scroll-behavior: smooth; }
 
 
 /* ───── VERIFY / CODE BLOCK SECTION ───── */
+/* main has gap:48px; counter it with negative margin for tighter flow */
 .verify-section {
-  margin: 20px auto 0;
+  margin: -28px auto 0;
   max-width: 860px;
   padding: 22px 24px 18px;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
-.verify-section + .verify-section { margin-top: 10px; }
+.verify-section + .verify-section { margin-top: -38px; }
 .verify-head { margin-bottom: 14px; }
 .verify-kicker {
   font: 700 11px/1 ui-monospace, "JetBrains Mono", monospace;
@@ -948,17 +949,25 @@ html { scroll-behavior: smooth; }
   font-size: 12px;
 }
 @media (max-width: 600px) {
-  .verify-section { padding: 28px 14px 24px; }
-  .verify-title { font-size: 18px; }
-  .codeblock-body { font-size: 11px; padding: 12px 12px; }
+  .verify-section { padding: 18px 14px 16px; margin-top: -22px; }
+  .verify-section + .verify-section { margin-top: -26px; }
+  .verify-title { font-size: 17px; }
+  .verify-lede { font-size: 13px; }
+  .codeblock-body { font-size: 10.5px; padding: 12px 12px; }
   .codeblock-head { flex-wrap: wrap; gap: 8px; padding: 8px 10px; }
+  .page-foot { margin-top: -18px; }
+  .page-foot .btn { flex: 0 0 auto !important; width: auto; }
 }
 
 .page-foot {
   display: flex;
   justify-content: center;
   max-width: 860px;
-  margin: 24px auto 40px;
+  margin: -24px auto 40px;
   padding: 0 24px;
 }
-.page-foot .btn { padding: 10px 18px; }
+.page-foot .btn {
+  flex: 0 0 auto;
+  width: auto;
+  padding: 10px 18px;
+}
