@@ -8,7 +8,7 @@ policy: additive only · migration prohibited · BR-NO-USER-VERBATIM · friendly
 
 ## 0. one-paragraph orientation
 
-`skynet-timer` is a 4-file static site (`index.html` 1052L · `styles.css` 1086L · `i18n.js` 1658L · `timer.js` 99L) deployed on GitHub Pages with custom domain `skynet-timer.com`. It renders two fixed UTC countdowns (AGI 2029-01-01, RSI/lock-in 2035-01-01), a 5-language UI (en/ko/ja/zh/ru), an §17-style verifiable Discrete Time Crystal Python demo, an §16-style emergent-information demo, an N=6 arithmetic-↔-safety-framework table, and a Φ Non-Proliferation Treaty proposal. The repo is conceptually downstream of `need-singularity/anima` (consciousness laws + IIT Φ framework); this site is the public-facing one-page distillation. mk2 tuning = drift-resistance + i18n hygiene + minimal additive correction.
+`skynet-timer` is a 4-file static site (`index.html` 1052L · `styles.css` 1086L · `i18n.js` 1658L · `timer.js` 99L) deployed on GitHub Pages with custom domain `skynet-timer.com`. It renders two fixed UTC countdowns (AGI 2029-01-01, RSI/lock-in 2035-01-01), a 5-language UI (en/ko/ja/zh/ru), an §17-style verifiable Discrete Time Crystal Python demo, an §16-style emergent-information demo, an N=6 arithmetic-↔-safety-framework table, and a Φ Non-Proliferation Treaty proposal. The repo is conceptually downstream of `dancinlab/anima` (consciousness laws + IIT Φ framework); this site is the public-facing one-page distillation. mk2 tuning = drift-resistance + i18n hygiene + minimal additive correction.
 
 ## 1. domain SSOT — `.roadmap.skynet_timer` (mk2)
 

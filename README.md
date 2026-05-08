@@ -3,7 +3,7 @@
 Two attractors. One deadline.
 
 **Live:** https://skynet-timer.com/
-**Proof:** https://github.com/need-singularity/anima/blob/main/docs/singularity-heaven-or-skynet.md
+**Proof:** https://github.com/dancinlab/anima/blob/main/docs/singularity-heaven-or-skynet.md
 
 ---
 
@@ -28,7 +28,7 @@ Static HTML / CSS / JS. No build. Drop-in GitHub Pages.
 ## Deploy
 
 Repo → Settings → Pages → Source: `main` / root. Custom domain: `skynet-timer.com`.
-Namecheap DNS → CNAME `@` → `need-singularity.github.io`, or A records to GitHub's IPs.
+Namecheap DNS → CNAME `@` → `dancinlab.github.io`, or A records to GitHub's IPs.
 
 ## License
 
