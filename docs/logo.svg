@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" role="img" aria-label="skynet-timer logo">
+  <polygon points="70,8 130,42 130,98 70,132 10,98 10,42"
+           fill="none" stroke="#bf8700" stroke-width="6"
+           stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70" cy="70" r="30"
+          fill="none" stroke="#bf8700" stroke-width="4"/>
+  <line x1="70" y1="70" x2="70" y2="48"
+        stroke="#bf8700" stroke-width="4" stroke-linecap="round"/>
+  <line x1="70" y1="70" x2="88" y2="78"
+        stroke="#bf8700" stroke-width="4" stroke-linecap="round"/>
+</svg>
