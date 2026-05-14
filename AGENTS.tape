@@ -43,6 +43,8 @@
 
 # ─── identity ─────────────────────────────────────────────────────────
 @I id001 := "skynet-timer" :: project [active]
+  brief = "singularity-attractor countdown · 2029-01-01 → 2035-01-01 UTC · GitHub Pages"
+  parent = "dancinlab"
   one_liner = "Two attractors. One deadline. — countdown to the singularity-attractor lock window (2029-01-01 → 2035-01-01 UTC)."
   surface = "static HTML/CSS/JS site (GitHub Pages), no build step"
   live = "https://skynet-timer.com/"
