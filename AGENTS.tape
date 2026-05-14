@@ -80,6 +80,14 @@
 @D g4 := "commit-conventions" :: governance [active recommended]
   => "imperative subject; reference attractor / window / i18n key when changing copy; one concept per commit"
 
+@D g_arch_vs_log_split := "v1.2 architecture-vs-history split" :: governance [required d=2026-05-14 active]
+  rule = "UPPERCASE.tape files are EDITABLE architecture (latest-wins per id). Append-only event history lives in UPPERCASE.log.tape siblings."
+  why = "declarative entries (governance · config · layout · identity) evolve naturally; locking them as append-only via ~> supersedes creates noisy histories. The split lets architecture stay current and history stay immutable."
+  applies-to = "AGENTS.tape · all UPPERCASE.tape root files"
+  authority = "[@x_tape_spec] §Domain-tape sibling §Architecture-vs-history split"
+  @> AGENTS.md
+
+
 # ─── forbidden patterns ───────────────────────────────────────────────
 @F f1 := "lattice-fit-on-external-entity" :: forbidden [active deny:write]
   pattern = "rounding deadlines / countdown windows / threshold values to fit n=6 lattice numerology"
